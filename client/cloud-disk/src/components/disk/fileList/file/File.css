@@ -1,0 +1,35 @@
+.file {
+    margin: 10px 0;
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 4fr repeat(4, 1fr);
+}
+
+.file_name {
+    grid-column-start: 2;
+}
+.file_type {
+   grid-column-start: 5;
+}
+.fileList_size {
+    grid-column-start: 7;
+}
+.icon {
+    height: 43px;
+    width: 43px;
+}
+
+/* .file_download {
+     display: none;
+}
+.file_delete {
+    display: none;
+}
+.file_download:hover {
+    grid-column-start: 5;
+    display: block;
+}
+.file_delete:hover {
+    grid-column-start: 5;
+    display: block;
+} */

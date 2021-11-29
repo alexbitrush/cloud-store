@@ -1,0 +1,26 @@
+.navbar {
+    /* margin: 0;
+    padding: 0; */
+    
+    height: 90px;
+}
+.navbar img {
+    padding: 6px;
+    height: 72px;
+    width: 73px;
+}
+.navbar .container {
+    border: 1px solid black;
+    border-radius: 6px 6px;
+    display: flex;
+    justify-content: space-around;
+}
+.container .navbar_header {
+    margin: 36px;
+}
+.container .navbar_login {
+    margin: 36px;
+}
+.container .navbar_registartion {
+    margin: 36px;
+}
